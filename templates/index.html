@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>David Oche--Personal Portfolio</title>
+
+	<link rel="stylesheet" href="{{ url_for('static', 
+	filename='css/all.min.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.svg') }}" type="image/x-icon">
+
+	
+</head>
+<body>
+	<nav>
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	<section id="home">
+		<div class="home-text">
+			<h1>Hello, i'm David Oche</h1>
+			<p>
+				A python developer with passion for solving real-world problems...
+			</p>
+			<a href="#projects" style="color: hsl(45, 54%, 58%);">Projects i'm working on</a>
+		</div>
+		<div class="home-img">
+			<img src="/static/images/nhoblepfp.jpeg" alt="my potrait">
+		</div>
+	</section>
+
+
+		<!-- About Me -->
+	<section id="about">
+		<h1>About Me</h1>
+		<p>
+			I'm a python developer with strong focus on building dynamic, responsive<br> web applications and solving problems through clean, efficient code, tasks<br> automation, analysing data, writing scalable solutions that makes an impact.<br> I'm always learning, building and always up for collaboration.
+		</p>
+
+			<!-- Services -->
+		<div class="services">
+			<div class="servic-grid">
+				<div class="service-item">
+					<h3 class="h3 service-title" style="color: white;">What i'm doing</h3>
+					<div class="service-icon">
+			            <img src="/static/images/icon-design.svg
+			            " alt="design icon" width="40">
+			        </div>
+			        <div class="service-content">
+			            <h4 class="h4 service-item-title">Graphic design</h4>
+
+			            <p class="service-item-text" style="color: black;">
+			                The most modern and high-quality design made at a professional level.
+			            </p>
+			        </div>
+			        <div class="service-icon-box">
+			            <img src="/static/images/icon-dev.svg" alt="Web development icon" width="40">
+			        </div>
+
+			        <div class="service-content">
+			            <h4 class="h4 service-item-title">Web development</h4>
+
+			            <p class="service-item-text" style="color: black;">
+			                High-quality development of sites at a professional level.
+			            </p>
+			        </div>
+
+			        <div class="service-icon-box">
+			            <img src="/static/images/icon-dev.svg" alt="Python programming icon" width="40">
+			        </div>
+
+			        <div class="service-content">
+			            <h4 class="h4 service-item-title">Python programming</h4>
+
+			            <p class="service-item-text" style="color: black;">
+			                Automation, scripting, machine learning through efficient and clean code.
+			            </p>
+			        </div>
+			        <div class="service-icon-box">
+			            <img src="/static/images/icon-app.svg" alt="Computer networking icon" width="40">
+			        </div>
+
+			        <div class="service-content">
+			            <h4 class="h4 service-item-title">Network infrastructure basics</h4>
+
+			            <p class="service-item-text" style="color: black;">
+			               Networking and cloud base computing.
+			            </p>
+			        </div>
+		        </div>
+	        </div>
+		</div>
+	</section>
+
+		<!-- My projects -->
+	<section id="projects">
+	    <h1>Projects</h1>
+	    <div class="project-grid">
+	      <div class="project">
+	        <img src="/static/images/project-1.jpg" alt="Screenshot of project 1" />
+	        <h3>Finance dashboard</h3>
+	        <p>Modern finance dashboard with python.</p>
+	      </div>
+	      <div class="project">
+	        <img src="/static/images/project-2.png" alt="Screenshot of project 2" />
+	        <h3>Portfolio</h3>
+	        <p>portfolio chart with python.</p>
+	      </div>
+	      <div class="project">
+	        <img src="/static/images/project-3.jpg" alt="Screenshot of project 3" />
+	        <h3>WordPress website</h3>
+	        <p>A fully responsive and SEO optimised website developed with wordpress.</p>
+	      </div>
+	      
+	      <!-- Add more projects as needed -->
+	    </div>
+	    <div class="project-grid">
+	      <div class="project">
+	        <img src="/static/images/project-5.png" alt="Screenshot of project 5" />
+	        <h3>Web design</h3>
+	        <p>Responsive web design with HTML, CSS, and JavaScript.</p>
+	      </div>
+	      <div class="project">
+	        <img src="/static/images/project-9.jpg" alt="Screenshot of project 4" />
+	        <h3>Weather App</h3>
+	        <p>Real-time weather app using OpenWeatherMap API and React.</p>
+	      </div>
+	      <div class="project">
+	        <img src="/static/images/project-8.jpg" alt="Screenshot of project 8" />
+	        <h3>Task manager</h3>
+	        <p>Manage your daily tasks( built with python flask).</p>
+	      </div>
+	      <!-- Add more projects as needed -->
+    	</div>
+	</section>
+
+		<!-- Contact Me -->
+	<section id="contact">
+		<h1>Contact Me</h1>
+		<p>For collaboration or jobs</p>
+		<p>reach me on:</p>
+
+		<div class="social-icons">
+			<a href="https://wa.me/2348078551147" target="_blank" title="WhatsApp"> 
+			<i class="fab fa-whatsapp"></i> 
+			</a>
+
+			<a href="https://x.com/Nhoble_" target="_blank" title="X / Twitter"> 
+			<i class="fab fa-twitter"></i> 
+			</a>
+
+			<a href="https://github.com/Nho-ble" target="_blank" title="Github"> 
+			<i class="fab fa-github"></i> 
+			</a>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		&copy; 2025 Nhoble. All rights reserved.
+	</footer>
+</body>
+</html>
