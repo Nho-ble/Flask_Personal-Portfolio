@@ -311,3 +311,47 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 600px) {
+  /* Stack grid sections */
+  .servic-grid,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Resize images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Fix navigation */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /* Adjust headings and text */
+  h1, h2, h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  /* Center and resize profile image */
+  .home-img img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  /* Adjust padding */
+  section {
+    padding: 20px 10px;
+  }
+
+  /* Make buttons and icons adapt */
+  .social-icons a {
+    font-size: 24px;
+  }
+}
